@@ -4,4 +4,4 @@ This project involved the creation of a cloud environment with a Jump Box and tw
 
 I've included the YAML files I used to launch and configure the cloud servers with docker containers via Ansible. In total, the final product involved a Jump Box server, two docker containers, and an ELK Stack which was used to monitor the log files of the docker containers via FileBeat and MetricBeat.
 
-![](diagrams/Cloud%20Security%20with%20ELK%20Stack.png)
+![](diagrams/Cloud_Security_with_ELK_Stack.png)
