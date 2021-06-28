@@ -1,4 +1,4 @@
-### Network and Cloud Security Project
+## Network and Cloud Security Project
 
 This project involved the creation of a cloud environment with a Jump Box and two containers designed to share the load of keeping a single website running, even if one of the containers were to fail.
 
