@@ -14,6 +14,7 @@ This document contains the following details:
   - Machines Being Monitored
 
 
+
 ### Description of the Topology
 
 The main purpose of this network is to create a load-balanced and monitored instance of DVWA (Damn Vulnerable Web Application). Load balancing ensures that the application will remain highly available, and the use of a Jump Box allows us to restrict unauthorized access to the network. 
@@ -30,6 +31,7 @@ The configuration details of each machine may be found below.
 | ELK Server | Log Monitor      | 10.2.0.4                   | Linux            |
 
 
+
 ### Access Policies
 
 By creating a Security Group within Azure, the Jump Box and ELK Server are not exposed to the public Internet (with the exception of a single IP of the administrator for the sake of SSH access to the Jump Box). Only the Web-1 and Web-2 machines can accept port 80 connections from the Internet, managed by the Load Balancer. The Jump Box and the ELK Server can only be accessed by the administrator's IP address: 136.49.68.20.
@@ -42,6 +44,7 @@ A summary of the access policies in place can be found in the table below.
 | Web-1      | Yes                 | Any                    |
 | Web-2      | Yes                 | Any                    |
 | ELK Server | No/Restricted       | 10.0.0.4 136.49.68.20  |
+
 
 
 ### Elk Configuration
@@ -59,6 +62,7 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![](Ansible/ELK-Server-docker-ps.jpg)
+
 
 
 ### Target Machines & Beats
