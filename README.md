@@ -2,7 +2,7 @@
 
 This project involved the creation of a cloud environment with a Jump Box and two containers designed to share the load of keeping a single website running, even if one of the containers were to fail.
 
-Included are the YAML files I used to launch and configure the cloud servers with docker containers via Ansible. The files have been tested and used to generate a live ELK deployment on Azure, and they can be used to recreate the entire deployment pictured above. In total, the final product involved a Jump Box server, two docker containers, and an ELK Stack which was used to monitor the log files of the docker containers via FileBeat and MetricBeat.
+Included are the YAML files I used to launch and configure the cloud servers with docker containers via Ansible. The files have been tested and used to generate a live ELK deployment on Azure, and they can be used to recreate the entire deployment pictured below. In total, the final product involved a Jump Box server, two docker containers, and an ELK Stack which was used to monitor the log files of the docker containers via FileBeat and MetricBeat.
 
 ![](Diagrams/Cloud-Security-with-ELK-Stack.png)
 
