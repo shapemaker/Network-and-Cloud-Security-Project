@@ -23,12 +23,12 @@ By integrating an ELK server, we allow the user to easily monitor all changes to
 
 The configuration details of each machine may be found below.
 
-| Name       | Function         | Private/Public IP Address  | Operating System |
-|------------|------------------|----------------------------|------------------|
-| Jump Box   | Gateway          | 10.0.0.4 52.149.181.114    | Linux            |
-| Web-1      | Docker Container | 10.0.0.6 13.92.17.5        | Linux            |
-| Web-2      | Docker Container | 10.0.0.7 13.92.17.5        | Linux            |
-| ELK Server | Log Monitor      | 10.2.0.4                   | Linux            |
+| Name       | Function         | Private | Public IP Address  | Operating System |
+|------------|------------------|------------------------------|------------------|
+| Jump Box   | Gateway          | 10.0.0.4 | 52.149.181.114    | Linux            |
+| Web-1      | Docker Container | 10.0.0.6 | 13.92.17.5        | Linux            |
+| Web-2      | Docker Container | 10.0.0.7 | 13.92.17.5        | Linux            |
+| ELK Server | Log Monitor      | 10.2.0.4                     | Linux            |
 
 
 
